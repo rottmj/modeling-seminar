@@ -1,0 +1,18 @@
+DDPG:
+    learning rate actor and critic
+    gamma
+    tau
+    batch size
+    noise (sigma) for exploration
+    optimizer
+    if clipping or scaling action value
+
+
+Crtitic and ActorNetwork:
+    # neurons per layer
+    activation functions
+    if batch normalization
+
+
+ExperienceReplayMemory:
+    size
