@@ -50,7 +50,7 @@ class ConstantVelocityEnvironment:
         return 1 - res
 
     def step(self, accel):
-        # update lead
+        # update lead if lead velocity is not constant during one episode
         # self.lead_velocity = min(30, self.lead_velocity + self.lead_velocity * np.random.uniform(-0.005, 0.005))
         # self.safety_gap = self.lead_velocity * 3.6 / 2
 
