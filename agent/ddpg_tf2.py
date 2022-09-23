@@ -6,8 +6,6 @@ from agent.buffer import ReplayBuffer
 from agent.networks import ActorNetwork, CriticNetwork
 
 
-# TODO test load and save methods
-
 class Agent:
     def __init__(self, input_dims, alpha=0.001, beta=0.0001,
                  gamma=0.99, n_actions=1, max_size=500000, tau=0.001,
